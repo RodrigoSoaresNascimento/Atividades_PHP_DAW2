@@ -12,16 +12,24 @@
     <?php
 
     //explode the date to get month, day and year
-    $usuario =  $_POST["usuario"];
-    $senha = $_POST["senha"];
-  
+    $nome1 =  $_POST["nome1"];
+    $nome2 = $_POST["nome2"];
+    $nome3 = $_POST["nome3"];
+    $nome4 = $_POST["nome4"];
+    $nome5 = $_POST["nome5"];
 
-    if ($usuario == "maria" & $senha == "12345") {
-        echo 'Autenticação realizada com sucesso';
-    } else {
-        echo 'Você não tem
-        permissão de visualizar essa página.';
+    $nomesList = [
+        $nome1,
+        $nome2,
+        $nome3,
+        $nome4,
+        $nome5
+    ];
+
+    foreach ($nomesList as $nomes) {
+        echo $nomes."<br/>";
     }
+
 
     ?>
 </body>

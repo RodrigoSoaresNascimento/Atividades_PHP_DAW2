@@ -7,12 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-<form action="calculaIMC.php" method="post">
-        <label> Calcular IMC <br />
+<form action="recebeLogin.php" method="post">
+        <label> Login <br />
             <label> Usuario </label><br>
             <input type="text" name="usuario"><br />
             <label> Senha </label><br>
-            <input type="text" name="senha"><br />
+            <input type="password" name="senha"><br />
             <input type="submit" value="Enviar"> <br />
             
     </form>

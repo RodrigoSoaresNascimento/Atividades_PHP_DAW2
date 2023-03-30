@@ -14,12 +14,9 @@
     
     $numero =  $_POST["numero"];
     for($i = 1; $i <= 10; $i++){
-
-        echo " $numero * $i =  ".($i * $numero)."<br>";        
-
+        echo $numero." * ".$i." = ".($numero * $i)."<br/>";
     }
-    
-    
+
     ?>
 </body>
 
